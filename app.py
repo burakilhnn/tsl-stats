@@ -16,7 +16,7 @@ st.sidebar.header('Features')
 selected_year = st.sidebar.selectbox('Year', list(reversed(range(1959,2021))))
 
 def load_data(selected_year):
-    df = pd.read_csv("../turkish-league-app/turkish_league.csv")
+    df = pd.read_csv("turkish_league.csv")
     selected_year = int(selected_year)
     filt = df['Season'] == selected_year
     df2 = df[filt]
