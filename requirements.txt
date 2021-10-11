@@ -2,5 +2,5 @@ streamlit==1.0.0
 pandas==1.1.3
 numpy==1.19.2
 seaborn==0.11.0
-matplotlib==3.3.2
+matplotlib
 base58
